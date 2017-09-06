@@ -1,0 +1,3 @@
+<template name="header">
+  <view wx:for="{{items}}" wx:key="b">{{item.value}}</view>
+</template>

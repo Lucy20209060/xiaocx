@@ -1,0 +1,19 @@
+ <import src="../common/header.wxml"/>
+ <template is="header" data="{{items}}"/> 
+ 
+<view class="classify-wrap">classify</view>
+
+  <view wx:for="{{items}}" wx:for-item="lucy" wx:for-index="lu" wx:key="a"> 
+  {{lu}}:{{lucy.value}}
+</view>  
+
+<!-- 定义模版 -->
+<!-- <template name="lucy">
+<view class="classname">{{site}}</view>
+  <view class="classname" wx:for="{{items}}">{{item.value}}</view>
+</template> -->
+<!-- 使用模版 -->
+<!-- <view class="classname">
+--------------使用模版-----------
+</view>
+<template is="lucy" data="{{site,items}}"></template> -->
