@@ -1,0 +1,53 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" mode="scaleToFill" class="slide-image imgsss" />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<view class="menu a_menu">
+  <view class="ul">
+    <view class="li">
+      <navigator url="/page/takeout/index">
+        <image mode="widthFix" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/activity.png"></image>
+        <text>抽奖</text>
+      </navigator>
+    </view>
+    <view class="li">
+      <navigator url="" hover-class="none">
+        <image mode="widthFix" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/share.png"></image>
+        <text>游戏</text>
+      </navigator>
+    </view>
+    <view class="li">
+      <navigator url="" hover-class="none">
+        <image mode="widthFix" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/set-meal.png"></image>
+        <text>全名夺宝</text>
+      </navigator>
+    </view>
+    <view class="li">
+      <navigator url="/page/activity/myCoupon/index">
+        <image mode="widthFix" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/integral.png"></image>
+        <text>优惠券</text>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="title_border">
+  <text>优惠专区</text>
+</view>
+
+<view class="image_box">
+  <navigator url="/page/activity/activityDetail/index">
+    <image class="i1" mode="" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/news.png"></image>
+  </navigator>
+  <navigator url="/page/activity/coupons/index">
+  <image class="i2" mode="" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/coupons.png"></image>
+  </navigator>
+  <image class="i2" mode="" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/coupon-a.png"></image>
+  <image class="i2" mode="" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/discount.png"></image>
+  <image class="i2" mode="" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/last-pic.png"></image>
+</view>

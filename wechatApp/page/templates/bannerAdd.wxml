@@ -1,0 +1,20 @@
+
+
+
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}"  mode="widthFix" class="slide-image imgsss"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<view class="main">
+  <text class="t1">营业时间：09:00-21:00</text>
+  <text class="t2">关山大道512号光谷天地</text>
+  <view bindtap="phone" class="phoneRight">
+    <text class="icon2_phone"></text>
+  </view>
+</view>

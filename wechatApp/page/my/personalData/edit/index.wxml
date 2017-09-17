@@ -1,0 +1,32 @@
+<view class="list_box">
+  <view class="li">
+    <text class="title">姓名</text>
+
+    <input class="more" placeholder="姓名" value="小明哥" />
+  </view>
+  <view class="li">
+    <text class="title">性别</text>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class="more">
+    <view class="picker">
+      {{array[index]}}
+    </view>
+  </picker>
+  </view>
+</view>
+
+<view class="list_box">
+  <view class="li">
+    <text class="title">手机号</text>
+    <input class="more" placeholder="姓名" value="128888888888" />
+  </view>
+  <view class="li">
+    <text class="title">所在地</text>
+    <input class="more" placeholder="姓名" value="深圳市龙华新区" />
+  </view>
+</view>
+
+
+
+<navigator url="/page/my/personalData/index">
+  <view class="btn_bom"><view class="classname">保存</view></view>
+</navigator>

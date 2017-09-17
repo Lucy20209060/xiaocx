@@ -1,0 +1,42 @@
+<view class="card-volume-all">
+
+  <view class="li">
+
+    <view class="card-volume-left">
+      <view class="t1">10<text>元</text></view>
+      <view class="t2">优惠券</view>
+    </view>
+
+    <view class="card-volume-right">
+      <view class="t1">全品类（特例商品除外）</view>
+      <view class="t2">满100元立减10元，全场通用</view>
+      <view class="t3">有效期：2017.07.19-2017.08.17</view>
+
+      <view class="use">去使用</view>
+
+    </view>
+
+
+  </view>
+
+
+  <view class="li">
+
+    <view class="card-volume-left c2">
+      <view class="t1">10<text>元</text></view>
+      <view class="t2">优惠券</view>
+    </view>
+
+    <view class="card-volume-right">
+      <view class="t1">全品类（特例商品除外）</view>
+      <view class="t2">满100元立减10元，全场通用</view>
+      <view class="t3">有效期：2017.07.19-2017.08.17</view>
+
+      <view class="use">去使用</view>  
+
+    </view>
+
+  </view>
+
+
+</view>

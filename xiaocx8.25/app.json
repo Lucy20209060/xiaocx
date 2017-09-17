@@ -5,7 +5,8 @@
     "pages/logs/logs",
     "pages/mine/mine",
     "pages/classify/classify",
-    "pages/car/car"
+    "pages/car/car",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",

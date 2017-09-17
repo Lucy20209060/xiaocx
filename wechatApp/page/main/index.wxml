@@ -1,0 +1,151 @@
+ <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+  <block wx:key="*this" wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" mode="scaleToFill" class="slide-image imgsss" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="menu">
+  <view class="logo-box">
+    <image mode="widthFix" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/index2/logo.png"></image>
+  </view>
+  <view class="ul">
+    <view class="li">
+      <navigator url="/page/takeout/index">
+        <image mode="widthFix" src="/image/index2/01.png"></image>
+        <text>点餐</text>
+      </navigator>
+    </view>
+    <view class="li">
+      <navigator url="/page/reserve/index" hover-class="none">
+        <image mode="widthFix" src="/image/index2/02.png"></image>
+        <text>预约</text>
+      </navigator>
+    </view>
+    <view class="li">
+      <view url="/page/lineUp/index" hover-class="none" catchtap="getQueueInfo">
+        <image mode="widthFix" src="/image/index2/03.png"></image>
+        <text>排队</text>
+      </view>
+    </view>
+    <view class="li">
+      <navigator url="/page/takeout/index">
+        <image mode="widthFix" src="/image/index2/04.png"></image>
+        <text>外卖</text>
+      </navigator>
+    </view>
+    <view class="li">
+      <navigator url="/page/main/index">
+        <image mode="widthFix" src="/image/index2/05.png"></image>
+        <text>抽奖</text>
+      </navigator>
+    </view>
+    <view class="li">
+      <navigator url="/page/main/index">
+        <image mode="widthFix" src="/image/index2/06.png"></image>
+        <text>游戏</text>
+      </navigator>
+    </view>
+    <view class="li">
+      <navigator url="/page/main/index">
+        <image mode="widthFix" src="/image/index2/07.png"></image>
+        <text>全民夺宝</text>
+      </navigator>
+    </view>
+    <view class="li">
+      <navigator url="/page/order/index">
+        <image mode="widthFix" src="/image/index2/08.png"></image>
+        <text>订单</text>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="headline-swiper">
+  <view class="inco-box-left"></view>
+  <swiper indicator-dots="{{false}}"
+  autoplay="{{true}}" interval="{{3000}}" duration="{{500}}" vertical="{{true}}">
+  <block >
+    <swiper-item>
+      <view>双十一瓜分10万到免单菜 <text class="hot-img"></text></view>
+      <view>双十一瓜分10万到免单菜10万到免单菜 <text class="hot-img"></text></view>
+    </swiper-item>
+  </block>
+  <block >
+    <swiper-item>
+      <view>双十一瓜分10万到免单菜 <text class="hot-img"></text></view>
+      <view>双十一瓜分10万到免单菜10万到免单菜 <text class="hot-img"></text></view>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+
+<view class="minibox {{ m ? 'maxh': '' }}" bindtap="hhhhhh">
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+    <view class="p">66666</view>
+</view>
+
+<view class="menu-recommended">
+  <view class="menu-recommended-left">
+
+    <view class="menu-recommended-left-top">
+      <view class="empty-box">
+        <text>19.9元不凑单</text>
+        <text class="t2">套餐不凑单 能量慢慢</text>
+      </view>
+    </view>
+    <view class="menu-recommended-left-bottom">
+      <image src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/index/food2.png" mode="widthFix"></image>
+    </view>
+  </view>
+  <view class="menu-recommended-right">
+    <view class="menu-recommended-right-top li-1">
+      <view class="empty-box">
+        <text>外卖招牌菜</text>
+        <text class="t2">强力推荐</text>
+      </view>
+      <view class="menu-img">
+        <image src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/index/food2.png" mode="widthFix"></image>
+      </view>
+    </view>
+
+    <view class="menu-recommended-right-top li-1">
+      <view class="empty-box">
+        <text>外卖招牌菜</text>
+        <text class="t2">强力推荐</text>
+      </view>
+      <view class="menu-img">
+        <image src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/index/food2.png" mode="widthFix"></image>
+      </view>
+    </view>
+
+<navigator url="/page/main/groupbuying/index">
+    <view class="menu-recommended-right-top li-1">
+      <view class="empty-box">
+        <text>团购钜惠</text>
+        <text class="t2">团购点餐更优惠</text>
+      </view>
+      <view class="menu-img">
+        <image src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/index/food2.png" mode="widthFix"></image>
+      </view>
+    </view>
+</navigator>
+  </view>
+</view> 

@@ -18,7 +18,24 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    wx.setStorage({
+      key: "info",
+      data: {
+        name: 'lucy',
+        age: '22'
+      }
+    });
+
+    try {
+      wx.setStorageSync({
+        key:'info2',
+        data:{
+          name:'luchao',
+          age:''
+        }
+      })
+    } catch (e) {
+    }
   },
 
   /**

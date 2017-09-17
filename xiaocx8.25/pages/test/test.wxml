@@ -1,0 +1,2 @@
+<!--pages/test/test.wxml-->
+<text>URL传过来的值{{par}}</text>

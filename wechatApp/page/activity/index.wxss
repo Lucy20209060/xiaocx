@@ -1,0 +1,61 @@
+swiper {
+  height: 310rpx;
+}
+
+swiper swiper-item {
+  height: 310rpx;
+}
+
+swiper image {
+  height: 310rpx;
+}
+
+.a_menu {
+  margin-top: 40rpx;
+}
+
+.title_border {
+  width: 336rpx;
+  height: 74rpx;
+  line-height: 74rpx;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.title_border::after {
+  content: '';
+  position: absolute;
+  left: 0rpx;
+  width: 336rpx;
+  height: 3rpx;
+  background: #999;
+  top: 40rpx;
+}
+
+.title_border text {
+  background: #fff;
+  padding: 0 20rpx;
+  position: relative;
+  z-index: 999999;
+}
+
+.image_box {
+}
+
+.image_box image {
+  display: block;
+  float: left;
+  height: 176rpx;
+  margin-bottom: 20rpx;
+}
+
+.image_box image.i1 {
+  width: 710rpx;
+  margin-left: 20rpx;
+}
+
+.image_box image.i2 {
+  margin-left: 20rpx;
+  width: 345rpx;
+}

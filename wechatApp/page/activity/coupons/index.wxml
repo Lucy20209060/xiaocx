@@ -1,0 +1,25 @@
+<view class="coupons">
+  <view class="coupons-btn-all">
+    <view class="coupons-btn">立即领取</view>
+    <view class="p">分享好友,立即送100积分</view>
+
+    <view class="coupons-text-all">
+      <view class="title_border"><text>活动规则</text></view>
+      
+      <view class="coupons-text-content">
+                <view>使用规则:</view>
+                <view>1.活动时间: 2017.08.30-2017.09.30</view>
+                <view>1. 本优惠券满200可用抵扣10元。仅限微信会员到店使用。</view>
+                <view>2. 有效期内每张抵用券仅限使用一次,不能和其他优惠同时享受,可叠加使用3张。</view>
+                <view>3. 抵用券仅限余微信端会员使用,需升至6.0及以上版本。</view>
+            </view>
+    </view>
+
+  </view>
+
+
+</view>
+
+<view class="footer-bottom">
+  <image mode="widthFix"  src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/bottom.png"></image>
+</view>
