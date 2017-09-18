@@ -1,5 +1,4 @@
 .DS_Store
-netMusicNode/node_modules/
 npm-debug.log*
 yarn-error.log
 selenium-debug.log
