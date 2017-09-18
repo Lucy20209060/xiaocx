@@ -13,6 +13,14 @@ Page({
    */
   onLoad: function (options) {
     
+
+    wx.getStorage({
+      key: 'info',
+      success: function (res) {
+        console.log(res.data)
+      }
+    })
+
   },
 
   /**

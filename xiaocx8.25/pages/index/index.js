@@ -1,8 +1,8 @@
 //index.js
 //获取应用实例
 
-import { HOME_API } from '../../utils/api'
-console.log(HOME_API)
+import { API_HOME } from '../../utils/api'
+
 var app = getApp()
 Page({
   data: {
@@ -32,10 +32,10 @@ Page({
   },
   // 页面滚动
   onPageScroll:function(){
-    console.log(1111)
-    this.setData({
-      motto: 'luchao'
-    })
+    // console.log(1111)
+    // this.setData({
+    //   motto: 'luchao'
+    // })
   },
   tapTest:function(){
     this.setData({
@@ -43,9 +43,8 @@ Page({
     });
 
     const that = this;
-
     const getlist = wx.request({
-      url: HOME_API.getlist,
+      url: API_HOME.getlist,
       data: {},
       success: function (res) {
 

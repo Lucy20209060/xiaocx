@@ -1,0 +1,82 @@
+.a1>image{
+  width: 100%;
+  height: 346rpx;
+display: block;
+}
+.a1 .activity-box{
+  border-bottom: 10rpx solid #f0f0f0;
+  border-top: 10rpx solid #f0f0f0;
+padding: 10rpx 30rpx;
+position: relative;
+}
+.a1 .activity-box .title{
+  font-size: 32rpx;
+  padding: 10rpx 0 20rpx;
+  display: block;
+  font-weight: 800;
+}
+.a1 .activity-box .time{
+  display: block;
+  font-size: 28rpx;
+  padding-left: 35rpx;
+
+}
+.a1 .activity-box image{
+  position: absolute;
+  width: 24rpx;
+  height: 24rpx;
+  bottom: 18rpx;
+  left: 30rpx;  
+}
+
+.a1 .activity-box .num{
+  position: absolute;
+  right: 40rpx;
+  top: 15rpx;
+  color: #ff3d5e;
+  
+}
+
+.a1 .activity-box .num text{
+font-size: 45rpx;
+}
+
+.a1 .activity-box .num text.t1{
+font-size: 30rpx;
+}
+
+.a1 .activity-user-guide{
+  padding:10rpx 30rpx;
+  color: #333333;
+  font-size: 28rpx;
+
+}
+
+.a1 .activity-user-guide .title{
+  font-size: 32rpx;
+  padding: 15rpx 0 0;
+  
+} 
+.a1 .activity-user-guide .li_1 view{
+  display: inline-block;
+}
+.a1 .activity-user-guide .li_1 .t{
+  margin-right: 20rpx;
+}
+.a1 .activity-user-guide .li .t{
+      color: #ff8400;
+      padding: 15rpx 0;
+      font-size: 24rpx;
+}
+
+.a1 .activity-user-guide .li text{
+      font-size: 24rpx;
+      display: block;
+      line-height: 40rpx;
+}
+
+.a1 .btn{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+

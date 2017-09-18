@@ -1,0 +1,84 @@
+page{
+  height: 100%;
+}
+.coupons {
+    min-width: 300px;
+    max-width: 750px;
+    background: url(http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/coupon.png) #fff7cc no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.coupons-btn-all {
+    padding-top: 450rpx;
+    text-align: center;
+}
+
+.coupons-btn-all .p{
+
+  color: #774d1b;
+  font-size: 28rpx;
+  margin: 20rpx 0;
+}
+.coupons .coupons-btn{
+    width: 88%;
+    margin: 0 auto;
+    height: 90rpx;
+    display: block;
+    background: #fa5f62;
+    color: #ffffff;
+    text-align: center;
+    line-height: 90rpx;
+    border-radius: 0.1066666666666667rem;
+    font-size: 30rpx;
+}
+
+.coupons-text-all {
+    width: 88%;
+    background-color: #fff;
+    margin:0 auto;
+    font-size: 28rpx;
+    line-height: 48rpx;
+    text-align: left;
+    padding:10rpx 40rpx 40rpx;
+    color: #774d1b;
+    box-sizing: border-box;
+}
+
+.footer-bottom{
+  position: fixed;
+  bottom: 0;
+  height: 92rpx;
+  width: 100%;
+  left: 0;
+}
+
+.footer-bottom image{
+  width: 100%;
+  
+}
+
+.title_border {
+  width: 336rpx;
+  height: 74rpx;
+  line-height: 74rpx;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.title_border::after {
+  content: '';
+  position: absolute;
+  left: 0rpx;
+  width: 336rpx;
+  height: 3rpx;
+  background: #999;
+  top: 40rpx;
+}
+.title_border text {
+  background: #fff;
+  padding: 0 20rpx;
+  position: relative;
+  z-index: 999999;
+}

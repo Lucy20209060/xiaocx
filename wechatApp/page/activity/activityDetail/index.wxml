@@ -1,0 +1,61 @@
+<view class="a1">
+
+<image mode="widthFix" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/activity-banner.png"></image>
+
+<view class="activity-box">
+  <text class="title">[智慧餐厅门店]10元券</text>
+  <image mode="widthFix" src="http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/activity/time.png"></image>
+  <text class="time">2017-06-23-2017-10-30</text>
+
+  <view class="num">
+    <text class="t1">¥</text>
+    <text class="t2">10</text>
+  </view>
+
+</view>
+
+<view class="activity-user-guide">
+
+<view class="title">使用说明</view>
+
+<view class="li li_1">
+  <view class="t">使用范围: </view>
+  <view class="more">
+    <text>全店通用</text>
+  </view>
+</view>
+
+<view class="li li_1">
+  <view class="t">使用时间: </view>
+  <view class="more">
+    <text>11:00-24:00</text>
+  </view>
+</view>
+
+<view class="li">
+  <view class="t">使用规则: </view>
+  <view class="more">
+    <text>1. 本抵用券可用于抵扣店内原价60元原价菜品.</text>
+    <text>2. 有效期内每张抵用券仅限使用一次,不能和其他优惠同时享受</text>
+    <text>3. 抵用券仅限余微信端会员使用,需升至6.0及以上版本</text>
+  </view>
+</view>
+
+<view class="li">
+  <view class="t">咨询商家: </view>
+  <view class="more">
+    <text>消费时需提前预约, </text>
+    <text>电话 : 0755-58582828</text>
+    <text>实际有效期以订单详情为准</text>
+  </view>
+</view>
+
+
+</view>
+
+<view class="btn_bom"><view class="classname">立即领取</view></view>
+
+
+</view>
+
+

@@ -8,6 +8,6 @@
     <text class="user-motto" wx:if="{{motto =='lucy'}}">{{motto}}</text>
   </view>
   <button bindtap="tapTest">按钮</button>
-
+  <navigator url="../test/test?id=56" >跳转到新页面</navigator>
   <view class="classname" wx:for="{{site}}" wx:key="a">{{item.region}}</view>
 </view>

@@ -1,0 +1,75 @@
+.add_ul .add_li {
+  height: 280rpx;
+  padding: 20rpx 0 0rpx;
+  border-bottom: 10rpx solid #f0f0f0;
+}
+
+.add_ul .add_li .subbranch-top {
+  padding: 10rpx 10rpx 20rpx 20rpx;
+  overflow: hidden;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.add_ul .add_li .subbranch-top image {
+  display: block;
+  width: 180rpx;
+  height: 150rpx;
+  float: left;
+}
+
+.add_ul .add_li .subbranch-top .subbranch-top-right {
+  float: left;
+  padding-left: 25rpx;
+}
+
+.add_ul .add_li .subbranch-top .subbranch-top-right view {
+  color: #666;
+  font-size: 24rpx;
+  margin-bottom: 18rpx;
+}
+
+.add_ul .add_li .subbranch-top .subbranch-top-right view.t1 {
+  color: #333;
+  font-weight: 800;
+  font-size: 32rpx;
+}
+
+.add_ul .add_li .subbranch-top .subbranch-top-right view text {
+  font-size: 24rpx;
+}
+
+.add_ul .add_li .subbranch-top .subbranch-top-right view.t2 text {
+  margin-left: 20rpx;
+}
+
+.add_ul .add_li .subbranch-top .subbranch-top-right view.t3 text {
+  margin-left: 50rpx;
+}
+
+.add_ul .add_li .subbranch-bottom view {
+  font-size: 24rpx;
+  float: left;
+  color: #666;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 280rpx;
+  position: relative;
+  padding-left: 70rpx;
+}
+
+.add_ul .add_li .subbranch-bottom view .time_icon {
+  position: absolute;
+  top: 24rpx;
+  left: 20rpx;
+  display: block;
+  width: 36rpx;
+  height: 36rpx;
+  background: url(/image/waitInfo/ico2.png) no-repeat;
+  background-position: 0px -228rpx;
+  background-size: 302rpx 466rpx;
+}
+
+
+.add_ul .add_li .subbranch-bottom view .phone_icon {
+    background-position: -46rpx -228rpx;
+}

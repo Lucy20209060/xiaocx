@@ -1,0 +1,157 @@
+.logo-box image {
+  width: 35%;
+  height: auto;
+  margin: 30rpx auto;
+  display: block;
+}
+
+swiper {
+  height: 240rpx;
+}
+
+swiper swiper-item {
+  height: 240rpx;
+}
+
+swiper image {
+  height: 240rpx;
+}
+
+.menu-recommended .menu-recommended-left {
+  float: left;
+  border-right: 1px solid #f0f0f0;
+}
+
+.menu-recommended .menu-recommended-left,
+.index-box .menu-recommended .menu-recommended-right {
+  width: 50%;
+  height: 420rpx;
+  border-bottom: 1px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.menu-recommended .menu-recommended-left .menu-recommended-left-top,
+.menu-recommended .menu-recommended-right .menu-recommended-right-top {
+  width: 100%;
+  overflow: hidden;
+}
+
+.menu-recommended .menu-recommended-left .menu-recommended-left-bottom {
+  padding: 20rpx;
+  text-align: center;
+}
+
+.menu-recommended .menu-recommended-left .menu-recommended-left-bottom image {
+  width: 260rpx;
+  height: 260rpx;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.menu-recommended .empty-box {
+  margin-top: 30rpx;
+}
+
+.menu-recommended .empty-box text {
+  color: #fd7154;
+  display: block;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+
+.menu-recommended .empty-box text.t2 {
+  color: #8e8e8e;
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  font-weight: 200;
+}
+
+.menu-recommended .menu-recommended-right .menu-img {
+  margin: 20rpx 0;
+  width: 130rpx;
+  float: right;
+}
+
+.menu-recommended .menu-recommended-right .menu-img image {
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.menu-recommended .menu-recommended-right .empty-box {
+  float: left;
+  margin-left: 20rpx;
+}
+
+.menu-recommended .menu-recommended-right {
+  width: 50%;
+  float: right;
+}
+
+.menu-recommended .menu-recommended-right .li-1 {
+  height: 138rpx;
+  border-bottom: 1px solid #f0f0f0;
+  box-sizing: content-box;
+}
+
+.headline-swiper {
+  position: relative;
+  height: 100rpx;
+  overflow: hidden;
+  border-bottom: 20rpx solid #f0f0f0;
+}
+
+.headline-swiper .inco-box-left {
+  top: 18rpx;
+  left: 30rpx;
+  position: absolute;
+  background: url(http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/waitInfo/ico2.png) no-repeat;
+  background-size: 302rpx 466rpx;
+  width: 72rpx;
+  height: 68rpx;
+  background-position: -118rpx -174rpx;
+}
+
+.headline-swiper .inco-box-left::after {
+  content: '';
+  position: absolute;
+  right: -20rpx;
+  top: 5rpx;
+  height: 60rpx;
+  border-right: 1rpx solid #8e8e8e;
+}
+
+.hot-img {
+  display: inline-block;
+  width: 26rpx;
+  height: 24rpx;
+  background: url("http://lingju360.natapp4.cc/zheng-wechat-mp-web/resources/images/index/hot.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.headline-swiper  view{
+  height: 40rpx;
+  font-size: 24rpx;
+  line-height: 40rpx;
+}
+
+.headline-swiper swiper{
+  padding-top: 10rpx;
+  padding-left:138rpx; 
+}
+
+.minibox{
+  height: 30px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.minibox .p{
+  height: 30px;
+  line-height: 30px;
+}
+
+.maxh{
+  height: 270px;
+}

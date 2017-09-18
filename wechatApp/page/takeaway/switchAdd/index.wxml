@@ -1,0 +1,49 @@
+<view class="add_ul">
+
+  <view class="add_li">
+    <view class="subbranch-top">
+      <image src="/image/list/icon_01.png"></image>
+      <view class="subbranch-top-right">
+        <view class="t1">零距离餐厅(龙华店)</view>
+        <view class="t2">人均 <text>¥85/人</text> </view>
+        <view class="t3">川菜/粤菜 <text>12.5km</text> </view>
+      </view>
+    </view>
+
+    <view class="subbranch-bottom">
+      <view class="time">
+      <text class="time_icon"></text>
+        营业时间:09:00-24:00
+      </view>
+      <view class="phone">
+      <text class="time_icon phone_icon"></text>
+        0755-88668866
+      </view>
+    </view>
+  </view>
+
+  <view class="add_li">
+    <view class="subbranch-top">
+      <image src="/image/list/icon_01.png"></image>
+      <view class="subbranch-top-right">
+        <view class="t1">零距离餐厅(龙华店)</view>
+        <view class="t2">人均 <text>¥85/人</text> </view>
+        <view class="t3">川菜/粤菜 <text>12.5km</text> </view>
+      </view>
+    </view>
+
+    <view class="subbranch-bottom">
+      <view class="time">
+      <text class="time_icon"></text>
+        营业时间:09:00-24:00
+      </view>
+      <view class="phone">
+      <text class="time_icon phone_icon"></text>
+        0755-88668866
+      </view>
+    </view>
+  </view>
+
+  
+
+</view>
